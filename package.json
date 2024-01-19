@@ -22,9 +22,6 @@
   },
   "release-it": {
     "hooks": {
-      "before:init": [
-        "echo"
-      ],
       "after:release": [
         "mkdir -p var/pub",
         "npm pack --pack-destination var/pub"
