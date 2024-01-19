@@ -1,0 +1,37 @@
+{
+  "name": "@appril/tsconfig",
+  "version": "0.2.0",
+  "author": "Slee Woo",
+  "license": "MIT",
+  "files": [
+    "tsconfig*.json"
+  ],
+  "exports": {
+    "./tsconfig.json": {
+      "default": "./tsconfig.json"
+    },
+    "./app.json": {
+      "default": "./tsconfig.app.json"
+    },
+    "./app-vue.json": {
+      "default": "./tsconfig.app-vue.json"
+    },
+    "./lib.json": {
+      "default": "./tsconfig.lib.json"
+    }
+  },
+  "release-it": {
+    "hooks": {
+      "before:init": [
+        "echo"
+      ],
+      "after:release": [
+        "mkdir -p var/pub",
+        "npm pack --pack-destination var/pub"
+      ]
+    }
+  },
+  "devDependencies": {
+    "release-it": "^17.0.1"
+  }
+}
