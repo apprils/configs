@@ -26,6 +26,6 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.5.3",
-    "release-it": "^17.0.1"
+    "release-it": "^17.1.1"
   }
 }
