@@ -1,5 +1,5 @@
 {
-  "extends": "./tsconfig.json",
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "moduleResolution": "bundler",
     "module": "ESNext",
@@ -8,4 +8,3 @@
     "sourceMap": true
   }
 }
-
