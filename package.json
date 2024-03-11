@@ -16,6 +16,7 @@
     "./tsconfig.app.json": "./tsconfig.app.json",
     "./tsconfig.app-vue.json": "./tsconfig.app-vue.json",
     "./tsconfig.lib.json": "./tsconfig.lib.json",
+    "./tsconfig.lib-vue.json": "./tsconfig.lib-vue.json",
     "./biome": "./biome.base.json"
   },
   "devDependencies": {
