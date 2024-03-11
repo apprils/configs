@@ -1,5 +1,5 @@
 {
-  "name": "@appril/tsconfig",
+  "name": "@appril/configs",
   "version": "0.2.5",
   "author": "Slee Woo",
   "license": "MIT",
@@ -8,19 +8,19 @@
     "npm": ">=10.2"
   },
   "files": [
-    "tsconfig*.json"
+    "*.json"
   ],
   "exports": {
-    "./base.json": {
+    "./tsconfig.base.json": {
       "default": "./tsconfig.base.json"
     },
-    "./app.json": {
+    "./tsconfig.app.json": {
       "default": "./tsconfig.app.json"
     },
-    "./app-vue.json": {
+    "./tsconfig.app-vue.json": {
       "default": "./tsconfig.app-vue.json"
     },
-    "./lib.json": {
+    "./tsconfig.lib.json": {
       "default": "./tsconfig.lib.json"
     }
   },
