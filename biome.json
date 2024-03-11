@@ -1,3 +1,6 @@
 {
-  "extends": ["./biome.base.json"]
+  "extends": ["./biome.base.json"],
+  "formatter": {
+    "ignore": ["./package*.json"]
+  }
 }
