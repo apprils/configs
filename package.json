@@ -1,13 +1,16 @@
 {
   "name": "@appril/configs",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "author": "Slee Woo",
   "license": "MIT",
   "engines": {
     "node": ">=20.10",
     "npm": ">=10.2"
   },
-  "files": ["tsconfig*.json", "biome*.json"],
+  "files": [
+    "tsconfig*.json",
+    "biome*.json"
+  ],
   "exports": {
     "./tsconfig.json": "./tsconfig.json",
     "./tsconfig.vite-vue.json": "./tsconfig.vite-vue.json",
